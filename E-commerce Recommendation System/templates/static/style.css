@@ -1,0 +1,76 @@
+/* Global Styling */
+body {
+    background-color: #edf2fb; /* Light background from your palette */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #5e60ce; /* Main title color matching your color palette */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    color: #4ea8de;
+    font-size: 16px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #b6ccfe;
+    margin-top: 5px;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border: 1px solid #5390d9;
+}
+
+input[type="submit"] {
+    background-color: #5390d9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #5e60ce;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
